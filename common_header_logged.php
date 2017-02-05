@@ -1,6 +1,6 @@
 <?php
 include 'login_authoriser.php';
-
+/*login authoriser is a part of main framework magic and is hidden from opensource*/
 ?>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
