@@ -1,0 +1,26 @@
+.w_mainbar{
+    background-color: rgba(30, 30, 167, 0.82);
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+margin-left: 20%;
+}
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #eff5c7;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #eff5c7;
+}
+.w_jumbotron{
+margin-top: 50px;
+
+}
+.w_home_form_interchange{
+float: left;
+}
+.navbar-toggle{
+background-color: white;
+}
