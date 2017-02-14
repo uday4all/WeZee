@@ -1,6 +1,9 @@
 .w_mainbar{
     background-color: rgba(30, 30, 167, 0.82);
 }
+.w_jumbotron{
+margin-top: 50px;
+}
 .navbar-default .navbar-brand {
     color: #fff;
 margin-left: 20%;
@@ -14,13 +17,21 @@ margin-left: 20%;
 .navbar-default .navbar-nav>li>a:hover {
     color: #eff5c7;
 }
-.w_jumbotron{
-margin-top: 50px;
 
-}
 .w_home_form_interchange{
 float: left;
 }
 .navbar-toggle{
 background-color: white;
+}
+.footer>*{
+padding: 4px;
+}
+.footer{
+    position: absolute;
+    bottom: 1px;
+text-align: center;
+    font-size: 18px;
+background-color: rgba(30, 30, 167, 0.82);
+width: 100%;
 }
