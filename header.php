@@ -1,3 +1,4 @@
+<?php include('functions/wezee/login_checker.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,23 @@
 <link rel="stylesheet" href="umix.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!-- WeZee personal scripts  -->
+<?php 
+$user_authentication_obj = new login_authenticator();
+if($user_authentication_obj->islogged($_SERVER['PHP_SELF'])) {
+echo  $user_authentication_obj->recd_URL;
+}
+else{
+echo  $user_authentication_obj->recd_URL;
+
+}
+?>
+
 </head>
+
+
 <body>
 
 <header>
