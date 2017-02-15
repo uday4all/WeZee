@@ -1,4 +1,5 @@
-<?php include('functions/wezee/login_checker.php'); ?>
+
+<?php include('functions/wezee/global_functions.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,14 +14,7 @@
 
 <!-- WeZee personal scripts  -->
 <?php 
-$user_authentication_obj = new login_authenticator();
-if($user_authentication_obj->islogged($_SERVER['PHP_SELF'])) {
-echo  $user_authentication_obj->recd_URL;
-}
-else{
-echo  $user_authentication_obj->recd_URL;
-
-}
+check_if_logged();
 ?>
 
 </head>
