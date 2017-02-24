@@ -1,10 +1,11 @@
  
-<?php Class main_forms {
+<?php
 
+Class main_forms {
 
-public function insert_login_form(){
+    public function insert_login_form() {
 
-return '
+        return '
 <form>
     <div class="form-group">
       <label for="email">Email:</label>
@@ -20,14 +21,12 @@ return '
     <button type="submit" class="btn btn-primary w_btn-primary btn-block  w-height-50px">login</button>
   </form>
   ';
+    }
+
+    public function insert_registration_form() {
 
 
-}
-
-public function insert_registration_form(){
-
-
-return '
+        return '
 <form>
 
 
@@ -74,8 +73,8 @@ return '
     <button type="submit" class="btn btn-primary w_btn-primary btn-block  w-height-50px">Register Now</button>
   </form>
   ';
+    }
+
 }
 
-
-}
 ?>
