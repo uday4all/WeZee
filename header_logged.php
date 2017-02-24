@@ -1,4 +1,6 @@
-<?php echo(
+<?php
+
+echo(
 '</head>
 
 
@@ -32,5 +34,6 @@
 </nav>
 
 </header>'
-) ?>
+)
+?>
  

@@ -1,4 +1,4 @@
- <?php echo('
+<?php echo('
 </head>
 
 
