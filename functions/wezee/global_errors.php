@@ -1,6 +1,8 @@
 <?php
 $error_id_array["191901"] = "The resource you are trying to access does not exist or you do not have authorised access for requested action";
 $error_id["191902"] = "You cannot edit global details that are installed in core framework";
+$error_id["191903"] = "You have entered an invalid password";
+$error_id["191904"] = "The account you are trying to login is not in our database";
 
 
 function get_error($error_id){

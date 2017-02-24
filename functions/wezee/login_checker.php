@@ -7,7 +7,7 @@ public $recd_URL;
 
 
 private function cookies_are_set(){
-  if(isset($_COOKIE['id']) && isset($_COOKIE['user'])){
+  if(isset($_COOKIE['user']) && isset($_COOKIE['pwsd'])){
    return true;
    } else {
    return false;
