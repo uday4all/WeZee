@@ -2,18 +2,7 @@
 
 Class login_authenticator {
 
-<<<<<<< HEAD
-public $recd_URL;
 
-
-
-private function cookies_are_set(){
-  if(isset($_COOKIE['user']) && isset($_COOKIE['pwsd'])){
-   return true;
-   } else {
-   return false;
-   }
-=======
     public $recd_URL;
 
     private function cookies_are_set() {
@@ -32,7 +21,7 @@ private function cookies_are_set(){
             return false;
         }
     }
->>>>>>> 0a8f05ac822954eb6ea642b9b6e4d1277fa26382
+
 
 }
 
