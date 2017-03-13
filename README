@@ -3,7 +3,7 @@
 WeZee is a Open Source Code Social Network created by Engineering Students that uses several web technologies like PHP,MySQL,CSS3 and some others.
 WORK STILL IN PROGRESS
 CURRENT DEVELOPMENT TARGET:
-make registration functionable so that data is verified,added to sql and xml files are created and login is also functionable
+creating a PHP library that has the ability to modify XML files
 
 Contributed By:
 ✦ Uday Kumar
