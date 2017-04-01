@@ -1,0 +1,18 @@
+<?php
+$postid="sai".md5(date("dmYhisA") );
+$post_source = "self";
+$xmlFile =simplexml_load_file("timeline.xml");
+$doc = new DOMDocument();
+$doc->preserveWhiteSpace = false;
+$doc->formatOutput = true;
+$doc->loadXML($xmlFile->asXML());
+$items = $doc->getElementsByTagName('post');
+$new_post = $doc->createElement("post");
+$new_post->setAttribute("id",$postid);
+$new_post->setAttribute("source","$post_source");
+$items->item(0)->parentNode->insertBefore($doc->appendChild($new_post), $items->item(0));
+$tlfile = fopen("timeline.xml","r+");
+fwrite($tlfile,$doc->saveXML());
+fclose($tlfile);
+
+?>
