@@ -5,6 +5,19 @@ WORK STILL IN PROGRESS
 CURRENT DEVELOPMENT TARGET:
 creating a PHP library that has the ability to modify XML files
 
+TimeLine Alpha 0.1 created by Uday Kumar kurumella
+This code shall remain the property of WeZee and should not be used by others for commercial use or create fake statements as sole owner for this code.
+
+Timeline code is still under construction.
+if errors are not available on user input ,a unique post id is generated and post source(author) is added to the user's timeline.
+if user posts on someothers timeline the post is added to both the users timeline and poster user timeline XML will have  tag (ontimeline) which notifies , :you have posted on your friends timeline: .
+under development: 
+based on the unique generated post id another xml file is created at the users directory where the post has been created.
+it includes furthur details like likes,comments,hide.
+after that the post is created on timelines of users if they have been tagged in the post.
+
+
+
 Contributed By:
 ✦ Uday Kumar
 ✦ Azmath Ali
